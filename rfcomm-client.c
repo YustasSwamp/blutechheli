@@ -164,7 +164,7 @@ void *threadfunc(void *parm)
 }
 
 void finalize(int s){
-	printf("\nTurn of helicopter.\n");
+	printf("\nTurn helicopter off.\n");
 	turnoff_heli();
 	usleep(200000);
 	exit(1); 
